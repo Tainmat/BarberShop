@@ -1,0 +1,74 @@
+html {
+  font-size: 62.5%;
+  --black: #0d114f;
+  --white: #fafafa;
+  --red: #e83f5b;
+  --light-blue: #e0ecff;
+  --blue: #3485ff;
+  --yellow: #c78c19;
+  --yellowRover: #faa906;
+  --background: #fbfcff;
+  --overlay: #040911;
+  --icons-details: #a5b0c1;
+
+
+  --dark-grey: #4d5e77;
+  --mediun-grey: #d3d9e2;
+  --light-grey: #e5eaf1;
+  --blue-grey: #a1b2cd;
+  --grey-read: #eaecf2;
+}
+
+body {
+  font-size: 1.6rem;
+
+}
+
+header {
+  background: var(--blue-grey);
+  padding: 2rem 0;
+}
+
+.header {
+  position: relative;
+  width: 94rem;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  top: 11rem;
+  right: 0;
+}
+
+.navbar .pages-navbar li {
+  display: inline;
+}
+
+.navbar ul li:nth-child(n+2):nth-child(n) {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: var(--overlay);
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+nav ul li a:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background: url('../assets/bg.jpg');
+  padding: 4rem 0;
+}
+
+.copyright {
+  font-size: 1.3rem;
+  color: var(--white);
+  margin-top: 2rem;
+}

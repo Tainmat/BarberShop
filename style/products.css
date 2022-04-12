@@ -1,0 +1,53 @@
+.products {
+  width: 94rem;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.products li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+
+  margin: 0 1.5%;
+  padding: 3rem 2rem;
+  box-sizing: border-box;
+
+  border: 0.2rem solid var(--overlay);
+  border-radius: 1rem;
+}
+
+.products li:hover {
+  transition: 0.2s;
+  border-color: var(--yellow);
+}
+
+.products li:active {
+  border-color: var(--blue);
+}
+
+.products li:hover h2 {
+  font-size: 3.4rem;
+}
+
+.products li:hover .product-price {
+  font-size: 3.4rem;
+}
+
+.products li h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 1.8rem;
+}
+
+.product-price {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+

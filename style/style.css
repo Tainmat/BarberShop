@@ -1,0 +1,58 @@
+#banner {
+  margin:  5rem 1rem 0 1rem;
+}
+
+#banner img {
+  width: 100%;
+
+  border-radius: 0.5rem;
+}
+
+
+.principal {
+  background: var(--blue-grey);
+  padding: 30px;
+  margin: 5rem 1rem 0 1rem;
+
+  border-radius: 0.5rem
+}
+
+.title-center,
+p {
+  text-align: center;
+}
+
+#missao {
+  font-size: 2rem;
+}
+
+p em strong {
+  color: var(--red);
+}
+
+.beneficios {
+  background: var(--background);
+  text-align: left;
+
+  margin: 5rem 1rem 5rem 1rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.benefits-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 20%;
+}
+
+.itens {
+  font-style: italic;
+}
+
+.imgBenefits {
+  width: 50%;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,68 @@
+main {
+  margin: 5rem auto;
+  width: 94rem;
+}
+
+form label, form fieldset legend {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  display: block;
+}
+
+.patternImput {
+  font-size: 2rem;
+  margin: 0 0 2rem;
+  display: block;
+  padding: 0.5rem 2rem;
+  width: 50%;
+}
+
+.selectTime {
+  margin-top: 2rem;
+}
+
+.checkbox {
+  margin-top: 2rem;
+}
+
+.button {
+  cursor: pointer;
+  width: 40%;
+  padding: 1.5rem 0;
+
+  border: none;
+  border-radius: 0.5rem;
+
+  background: orange;
+  color: var(--white);
+
+  font-weight: bold;
+  font-size: 1.8rem;
+
+  transition: 0.2s all;
+}
+
+.button:hover {
+  background: darkorange;
+  transform: scale(1.02);
+}
+
+.barberOpen {
+  margin: 2rem 0 4rem 0;
+}
+
+.barberOpen thead {
+  background: var(--dark-grey);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.barberOpen td, .barberOpen th {
+  border: 0.1rem solid var(--overlay);
+  padding: 0.8rem 1.5rem;
+}
+
+
+
+
+
